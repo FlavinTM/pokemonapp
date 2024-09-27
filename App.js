@@ -45,7 +45,7 @@ const App = () => {
 
   const verificarPalpite = () => {
     if (palpite.toLowerCase() === pokemon.name.toLowerCase()) {
-      setRetorno('Você acertei!');
+      setRetorno('Você acertou!');
       setPontuacao(pontuacao + 1);
     } else {
       setRetorno('Tente novamente!');
